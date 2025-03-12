@@ -1,2 +1,3 @@
 # website-brand-protofolio
-brand
+buat file img untuk memasukan file fotonya sebelum eksekusi
+
