@@ -16,6 +16,9 @@
 
     <!--Style-->
     <style>
+      html {
+  scroll-behavior: smooth;
+}
       header{
         background:url(img/main.jpg);
         background-position: center;
@@ -161,11 +164,71 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugit eos ullam fuga vel id possimus cumque inventore perferendis assumenda? Perspiciatis fugit quasi praesentium
            sapiente dolorem consectetur distinctio, magnam eius.</p>
       </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email"  id="email">
+            <label for="email">Email Here</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea name="" id="message" class="materialize-textarea"></textarea>
+            <label for="message">Message Here</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">today</i>
+            <input type="text"  id="date" class="datepicker">
+            <label for="date">Choose your date</label>
+          </div>
+          <div class="input-field">
+            <p>Skills Required...</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Designing</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Modeling</span>
+              </label>
+            </p>
+            <div class="input-field center">
+              <button class="btn black white-text">Sumbit</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 
   <!--page footer-->
-
+<footer class="page-footer grey darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 l6">
+        <h5>ABOUT US</h5>
+        <P>Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit. Facere nostrum doloremque,
+           eos delectus autem eum nemo quos. 
+           Repudiandae modi ut ea vero aperiam
+            ipsum, quia doloremque accusantium 
+            consectetur at corporis.</P>
+      </div>
+      <div class="col s12 l4 offset-l2">
+        <h5>CONNECT US</h5>
+        <ul>
+          <li href="#" class="white-text">FACEBOOK</li>
+          <li href="#" class="white-text">TWITTER</li>
+          <li href="#" class="white-text">INSTAGRAM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container center cyan-text"><h6>&copf;o_O LOVE</h6></div>
+  </div>
+</footer>
 
 
 <!--Compiled and minified Jquery-->
@@ -179,8 +242,8 @@
         $('.materialboxed').materialbox();
         $('.parallax').parallax();
         $('.tabs').tabs();
+        $('.datepicker').datepicker();
       })
     </script>
-
 </body>
 </html>
